@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+body {
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+  font-family: "Museo", sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 20%;
+}
+
+#right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.icon {
+	width: 30px;
+}
+
+#mainimg {
+	background-size: cover;
+	height: 80vh;
+	width: 60%;
+  background-color: grey;
+  border: 10px solid white;
+  position: relative;
+  left: 30px;
+}
+
+div#mainimg img[alt=car] {
+	height: 80vh;
+	width: 100%;
+}
+
+div#mainimg img[alt="left"] {
+  position: absolute;
+  left: -2%;
+  top: 40%;
+  height: 70px;
+}
+
+div#mainimg p {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color:white;
+}
+
+div#maining div p {
+  display: flex;
+  justify-content: flex-end
+  margin: 2%;
+}
+
+div#mainimg div {
+	height: 10vh;
+	width: 100%;
+  background-color: #696969;
+  position: absolute;
+  top: 87%;
+}
+
+div#mainimg img[alt="right"]  {
+  position: absolute;
+  right: -2%;
+  top: 40%;
+  height: 70px;
+}
+
+#maininfo {
+  position: absolute;
+  left: 65%;
+  bottom: 36%;
+ 	display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: .1em;
+  background-color: white;
+  height: 45%;
+  width: 33.5%; 
+}
+
+#maininfo div {
+  height: 90%;
+  position: absolute;
+  left: 57%;
+  bottom: 12%;
+}
+
+h2, .myinfo {
+  position: relative;
+  right: 48%;
+}
+
+div#description div {
+  background-color: white;
+  width: 33.7%;
+  height: 500px;
+}
+
+div#description div p {
+ color: black; 
+ margin: 2%;
+  font-size: 1.5em;
+}
+
+#description {
+  display: flex; 
+  justify-content: flex-end;
+  position: relative;
+  bottom: 150px;
+  right: 10px;
+}
+
+div#description h1 {
+  margin: 2%
+}
+
+div div#cards p {
+  width: 450px;
+  height: 280px;
+  background-color: grey;
+  margin: 10px;
+  border: 10px solid white;
+  background: url(https://steamuserimages-a.akamaihd.net/ugc/914665466476618727/472BDD621A68F7EC9591E59E6C3DD6531DCCF864/);
+  background-size: cover;
+}
+
+#cards {
+  display: flex; 
+  position: absolute;
+  bottom: -350px;
+  left: 36px;
+}
+
+#myportfolio {
+  position: absolute; 
+  bottom: -450px;
+  left: 30px;
+}
+
+#gallery { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#gallery .img {
+  background: url(https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/wp-content/uploads/2017/04/cars_3_characters-17.jpg);
+ background-size: cover;   
+}
+
+.img {
+  background: url(background: url("https://vignette2.wikia.nocookie.net/worldofcarsdrivein/images/d/d0/Fillmore.png/revision/latest?cb=20111006075558");
+  height: 400px;
+  width: 500px;
+  margin: 10px;
+}
+
+footer {
+  position: relative;
+  bottom: -30px;
+  background-size: cover;
+	width: 100%;
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+ background-color: #666;
+ background-blend-mode: overlay;  
+}
+
+#footerbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #696969;
+}
+
+footer #footerbar img[alt="bird"] {
+  width: 25px;
+}
+
+span {
+  font-size: .6em;
+  position: relative;
+  bottom: -3px;
+}
+
+#searchbar {
+  width: 90%;
+  height: 15%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+section div.column div p {
+  color: #333;
+  margin-left: 20px;
+}
+
+section div.column img[alt="searchicon"] {
+  width: 5%;
+}
+
+section div.column img[alt="logo"] {
+  width: 20%  
+}
+
+a {
+  font-size: .8em;
+}
+
+h3 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 1px;
+}
+
+.box {
+  width: 120px;
+  height: 90px;
+   background: url(http://3.bp.blogspot.com/-5Ci9DSGWfg4/UGi7P7ttP2I/AAAAAAAABDo/7Y4pD5JH0DA/s1600/Finn_McMissile_3_5245.png);
+background-size: cover;
+  margin-left: 10px;
+}	
+
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+ background-color: #666;
+ background-blend-mode: overlay;
+}
+
+.column {
+  width: 100%;
+  margin: 20px;
+}
+
+.four {
+  display: flex;
+  margin: 10px;
+}
+ 
+
+
+
