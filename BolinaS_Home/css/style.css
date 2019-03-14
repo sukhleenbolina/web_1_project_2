@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+body {
+    font-family: "Museo", sans-serif;
+
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#left {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 20%;
+}
+
+#right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.icon {
+	width: 50px;
+}
+
+#mainimg {
+	background-size: cover;
+	height: 80vh;
+	width: 95%;
+  background-color: grey;
+  border: 10px solid white;
+  position: relative;
+  left: 30px;
+  bottom: -12px;
+}
+
+div#mainimg img[alt=shrekone] {
+	height: 70vh;
+	width: 100%;
+}
+
+div#mainimg img[alt=left-arrow] {
+  position: absolute;
+  left: -1%;
+  top: 40%;
+  height: 70px;
+}
+
+div#mainimg img[alt=right-arrow] {
+  position: absolute;
+  right: -1%;
+  top: 40%;
+  height: 70px;
+}
+
+#mainimg div p {
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#mainimg div {
+  background-size: cover;
+	height: 10vh;
+	width: 100%;
+  background-color: #696969;
+  position: absolute;
+  top: 87%;
+  
+}
+
+#nessst {
+  color: black;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+#gallery {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin: 20px 10px;
+	height: 40vh;
+	width: 60vh;
+  background-color: #696969;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://www.writeups.org/wp-content/uploads/Shrek-movie.jpg);
+background-size: cover;
+}
+
+#viewmore p {
+  position: realtive;
+  bottom: 15px;
+}
+
+#viewmore{
+  width: 15%;
+  height: 8%;
+  color: black; 
+  left: 42%;
+  position: relative; 
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+ background-color: #666;
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer {
+  postion: relative;
+  bottom: -30%;
+  background-size: cover;
+	width: 100%;
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+ background-color: #666;
+ background-blend-mode: overlay;  
+}
+
+#footerbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #696969;
+}
+
+footer #footerbar img[alt="bird"] {
+  width: 25px;
+}
+
+span {
+  font-size: .6em;
+  position: relative;
+  bottom: -3px;
+}
+
+#searchbar {
+  width: 90%;
+  height: 15%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+section div.column div p {
+  color: #333;
+  margin-left: 20px;
+}
+
+section div.column img[alt="searchicon"] {
+  width: 5%;
+}
+
+section div.column img[alt="logo"] {
+  width: 20%  
+}
+
+a {
+  font-size: .8em;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.box {
+  width: 120px;
+  height: 90px;
+   background: url(https://www.dreamworksanimation.com/wp-content/uploads/2014/10/shrek-watch-xmas-on.jpg);
+background-size: cover;
+}	
+
+.footer-columns {
+  display: flex;
+  width: 100%;
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+ background-color: #666;
+ background-blend-mode: overlay;
+}
+
+.column {
+  width: 100%;
+}
+
+.four {
+  display: flex;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
