@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+body {
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+  font-family: "Museo", sans-serif;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 20%;
+}
+
+#right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.icon {
+	width: 30px;
+}
+
+#student-feature {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr) 2fr;
+	grid-template-rows: repeat(3, 1fr); 
+	grid-gap: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+ #focus {
+	background: url('https://i.pinimg.com/originals/1f/ae/50/1fae509c2625b85c3011bba0b462b9c8.jpg');
+	background-size: cover;
+	background-position: center;
+	grid-column-start: 1 ;
+	grid-column-end: 4;
+	grid-row-start: 1; 
+	grid-row-end: 3;
+}
+
+
+
+#position-one {
+	background: url('https://assets.entrepreneur.com/content/3x2/2000/20180703190744-rollsafe-meme.jpeg?width=700&crop=2:1');
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 1 ;
+	grid-column-end: 2;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+
+#position-two {
+	background: url('https://forfunnest.com/wp-content/uploads/2016/11/meme-friday-monday.jpg');
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 2 ;
+	grid-column-end: 3;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+
+#position-three {
+	background: url('https://s.hdnux.com/photos/46/61/76/10166192/3/920x920.jpg');
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 3 ;
+	grid-column-end: 4;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+}
+
+#bio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+}
+
+#bio section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 1.5em;  
+}
+
+#bio div {
+  width: 200px;
+  height: 250px;
+  background-color: #696969;
+}
+
+#project-detail {
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 2; 
+	grid-row-end: 4;
+  text-transform: uppercase;
+}
+
+#student {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+  position: relative;
+  bottom: -30px;
+  background-size: cover;
+	width: 100%;
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+ background-color: #666;
+ background-blend-mode: overlay;  
+}
+
+#footerbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #696969;
+}
+
+footer #footerbar img[alt="bird"] {
+  width: 25px;
+}
+
+span {
+  font-size: .6em;
+  position: relative;
+  bottom: -3px;
+}
+
+#searchbar {
+  width: 90%;
+  height: 15%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+section div.column div p {
+  color: #333;
+  margin-left: 20px;
+}
+
+section div.column img[alt="searchicon"] {
+  width: 5%;
+}
+
+section div.column img[alt="logo"] {
+  width: 20%  
+}
+
+a {
+  font-size: .8em;
+}
+
+h3 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 1px;
+}
+
+.box {
+  width: 120px;
+  height: 90px;
+   background: url(http://3.bp.blogspot.com/-5Ci9DSGWfg4/UGi7P7ttP2I/AAAAAAAABDo/7Y4pD5JH0DA/s1600/Finn_McMissile_3_5245.png);
+background-size: cover;
+  margin-left: 10px;
+}	
+
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: url(https://github.com/sukhleenbolina/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+ background-color: #666;
+ background-blend-mode: overlay;
+}
+
+.column {
+  width: 100%;
+  margin: 20px;
+}
+
+.four {
+  display: flex;
+  margin: 10px;
+}
+
+
